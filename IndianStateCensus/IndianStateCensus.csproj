@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Indian state census data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Indian state census data\" />
+  </ItemGroup>
 </Project>
